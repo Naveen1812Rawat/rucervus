@@ -1,0 +1,351 @@
+body {
+			background-color: #B22222;
+	}
+
+
+*{
+  margin:0;
+  font-family:verdana;
+}
+#abc{
+  width:100%;
+  background-color: blanchedalmond;
+  background-size: cover;
+}
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: blanchedalmond;
+  line-height: 50px;
+}
+
+
+
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover{
+  background-color:#088;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
+		
+
+	
+
+	.row{
+		width: 100%;
+	}
+
+	.fa-vc{
+		line-height:inherit!important;
+	}
+
+	.social{
+
+	}
+
+
+
+
+	a i{
+		display: inline-block;
+		height: 50px; 
+		width: 50px; 
+		border-radius: 50px; 
+		background-color: #F5F1F0;
+		vertical-align: center;
+		text-align: center;
+		margin: 10px;
+		line-height: 150px;
+		box-shadow: 1px 4px 2px 2px #F5F1F0;
+		font-size: 20px;
+
+		transition: 0.2s linear;
+	}
+
+	a:hover i{
+		transform: scale(1.2);
+	}
+
+
+/**************** For large devices **********************/
+@media (min-width: 1200px){
+	.jumbotron{
+		background: url("PUBG2.jpg") no-repeat;
+		height: 775px;
+		box-shadow: 0 0 50px #310C1F;
+		border: 2px solid #310C1F;
+	}
+}
+
+/***************** For Medium Devices *********************/
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.jumbotron{
+		background: url("PUBG2.jpg") no-repeat;
+		height: 558px;
+		box-shadow: 0 0 50px #310C1F;
+		border: 2px solid #310C1F;
+	}
+}
+
+/************** For Small devices ******************/
+@media (min-width: 768px) and (max-width: 992px){
+	.jumbotron{
+		background: url("PUBG2.jpg") no-repeat;
+		height: 432px;
+		box-shadow: 0 0 50px #310C1F;
+		border: 2px solid #310C1F;
+	}
+}
+
+/************** For extra small devices **************/
+@media (max-width: 767px){
+	.jumbotron{
+		background: url("PUBG2.jpg") no-repeat;
+		height: 300px;
+		box-shadow: 0 0 50px #310C1F;
+		border: 2px solid #310C1F;
+	}
+}
+
+#menu-tile, #map-tile, #specials-tile{
+	height: 250px;
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+
+}
+
+#events-tile, #stream-tile{
+	height: 275px;
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+
+}
+
+
+#menu-tile:hover, #map-tile:hover, #specials-tile:hover, #events-tile:hover, #stream-tile:hover{
+	box-shadow: 0px 1px 5px 1px #cccccc;
+	transform: scale(1.1);
+}
+
+#menu-tile{
+	background: url("images/Logo.png") no-repeat;
+	height: 250px;
+	width: 100%;
+	background-position: center;
+}
+
+#specials-tile{
+	background: url("images/Logo.png") no-repeat;
+	height: 250px;
+	width: 100%;
+	background-position: center;
+}
+
+#map-tile{
+	background: url("images/Logo.png") no-repeat;
+	height: 250px;
+	width: 100%;
+	background-position: center;
+}
+
+#events-tile{
+	background: url("images/Logo.png") no-repeat;
+	height: 275px;
+	width: 100%;
+	background-position: center;
+}
+
+#stream-tile{
+	background: url("images/Logo.png") no-repeat;
+	height: 275px;
+	width: 100%;
+	background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span, #events-tile span, #stream-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	text-size: 1.7em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.8;
+}
+
+#logo{
+	background: url("images/Logo.png") no-repeat;
+	height: 130px;
+	width: 100%;
+	border-radius: 50%;
+}
+
+/***************** Footer *******************/
+
+.panel-footer{
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+	height: 150px;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #222;
+	border-top: 0;
+}
+
+.panel-footer div.row{
+	margin-bottom: 0px;
+}
+
+
+@media (max-width: 949px){
+		.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5,
+		.col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{
+		
+		}
+		.col-xs-1{
+			width: 8.33%;
+		}
+		.col-xs-2{
+			width: 16.66%;
+		}
+		.col-xs-3{
+			width: 25%;
+		}		
+		.col-xs-4{
+			width: 33%;
+		}
+		.col-xs-5{
+			width: 41.66%;
+		}
+		.col-xs-6{
+			width: 50%;
+		}
+		.col-xs-7{
+			width: 58.33%;
+		}
+		.col-xs-8{
+			width: 66.66%;
+		}
+		.col-xs-9{
+			width: 75%;
+		}
+		.col-xs-10{
+			width: 83.33%;
+		}
+		.col-xs-11{
+			width: 91.66%;
+		}
+		.col-xs-12{
+			width: 100%;
+		}
+	}
+
+	/************ Medium Devices *************/
+	@media (min-width: 950px) and (max-width: 1199px){
+		.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+		.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+		}
+		.col-md-1{
+			width: 8.33%;
+		}
+		.col-md-2{
+			width: 16.66%;
+		}
+		.col-md-3{
+			width: 25%;
+		}		
+		.col-md-4{
+			width: 33%;
+		}
+		.col-md-5{
+			width: 41.66%;
+		}
+		.col-md-6{
+			width: 50%;
+		}
+		.col-md-7{
+			width: 58.33%;
+		}
+		.col-md-8{
+			width: 66.66%;
+		}
+		.col-md-9{
+			width: 75%;
+		}
+		.col-md-10{
+			width: 83.33%;
+		}
+		.col-md-11{
+			width: 91.66%;
+		}
+		.col-md-12{
+			width: 100%;
+		}
+	}	
+
+	@media (max-width: 949px){
+		.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
+		.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+		}
+		.col-sm-1{
+			width: 8.33%;
+		}
+		.col-sm-2{
+			width: 16.66%;
+		}
+		.col-sm-3{
+			width: 25%;
+		}		
+		.col-sm-4{
+			width: 33%;
+		}
+		.col-sm-5{
+			width: 41.66%;
+		}
+		.col-sm-6{
+			width: 50%;
+		}
+		.col-sm-7{
+			width: 58.33%;
+		}
+		.col-sm-8{
+			width: 66.66%;
+		}
+		.col-sm-9{
+			width: 75%;
+		}
+		.col-sm-10{
+			width: 83.33%;
+		}
+		.col-sm-11{
+			width: 91.66%;
+		}
+		.col-sm-12{
+			width: 100%;
+		}
+	}
