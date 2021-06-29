@@ -73,8 +73,9 @@ nav ul li a{
 		transition: 0.2s linear;
 	}
 
-	a:hover i{
-		transform: scale(1.2);
+	a:hover {
+		transform: rotateZ(360deg);
+		color: red;
 	}
 
 
